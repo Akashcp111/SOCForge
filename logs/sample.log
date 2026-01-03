@@ -1,0 +1,18 @@
+2026-01-03 11:34:05 INFO [System] User: user_2 Logon Success
+2026-01-03 11:35:05 INFO [System] User: user_3 Logon Success
+2026-01-03 11:35:05 INFO [System] User: user_4 Logon Success
+2026-01-03 11:35:05 INFO [System] User: user_4 Logon Success
+2026-01-03 11:40:05 INFO [System] User: user_3 Logon Success
+2026-01-03 11:41:05 INFO [System] User: user_3 Logon Success
+2026-01-03 11:41:05 INFO [System] User: user_5 Logon Success
+2026-01-03 11:42:05 ERROR [Web] 192.168.1.60 - - [03/Jan/2026:11:42:05 +0000] "GET /index.php?page=../../../../etc/passwd HTTP/1.1" 404 456
+2026-01-03 11:42:05 INFO [System] User: user_4 Logon Success
+2026-01-03 11:42:05 INFO [System] User: user_4 Logon Success
+2026-01-03 11:43:05 INFO [System] Process: mimikatz.exe started by user alice
+2026-01-03 11:43:05 INFO [System] User: user_2 Logon Success
+2026-01-03 11:43:35 WARN [Security] EventID: 4625 User: admin Source: 192.168.1.11 Logon Failed
+2026-01-03 11:43:37 WARN [Security] EventID: 4625 User: admin Source: 192.168.1.11 Logon Failed
+2026-01-03 11:43:39 WARN [Security] EventID: 4625 User: admin Source: 192.168.1.11 Logon Failed
+2026-01-03 11:43:41 WARN [Security] EventID: 4625 User: admin Source: 192.168.1.11 Logon Failed
+2026-01-03 11:43:43 WARN [Security] EventID: 4625 User: admin Source: 192.168.1.11 Logon Failed
+2026-01-03 11:43:45 WARN [Security] EventID: 4625 User: admin Source: 192.168.1.11 Logon Failed

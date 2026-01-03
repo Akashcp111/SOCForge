@@ -1,0 +1,28 @@
+[
+    {
+        "id": "RULE-001",
+        "name": "Brute Force Login Attempt",
+        "type": "threshold",
+        "field": "event_id",
+        "value": "4625",
+        "threshold": 5,
+        "time_window": 60,
+        "description": "Detects 5 or more failed login attempts (Event ID 4625) within 60 seconds."
+    },
+    {
+        "id": "RULE-002",
+        "name": "Malicious Process Execution",
+        "type": "keyword",
+        "field": "message",
+        "value": "mimikatz.exe",
+        "description": "Detects execution of known malicious tools like Mimikatz."
+    },
+    {
+        "id": "RULE-003",
+        "name": "Suspicious Web Access",
+        "type": "keyword",
+        "field": "message",
+        "value": "/etc/passwd",
+        "description": "Detects potential LFI attempts in web logs."
+    }
+]
